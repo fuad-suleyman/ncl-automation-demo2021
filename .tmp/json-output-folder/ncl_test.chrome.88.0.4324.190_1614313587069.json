@@ -1,0 +1,122 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "NCL test",
+    "line": 1,
+    "id": "ncl-test",
+    "tags": [],
+    "uri": "features\\homepage.feature",
+    "elements": [
+      {
+        "id": "ncl-test;client-filters-cruises-by-date-on-ncl.com",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Client filters cruises by date on ncl.com",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "client on ncl homepage",
+            "match": {
+              "location": "features\\step-definitions\\hompage-stepdefs.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8511000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "a client searches for sailings on first available month",
+            "match": {
+              "location": "features\\step-definitions\\hompage-stepdefs.js:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2533000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "cruise counter on filter updates",
+            "match": {
+              "location": "features\\step-definitions\\hompage-stepdefs.js:38"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2146000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "filtered list of cruises is displayed",
+            "match": {
+              "location": "features\\step-definitions\\hompage-stepdefs.js:46"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10422000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "all displayed cruises should start on selected month",
+            "match": {
+              "location": "features\\step-definitions\\hompage-stepdefs.js:54"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2456000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "number of displayed cruises should match previous counter on filter",
+            "match": {
+              "location": "features\\step-definitions\\hompage-stepdefs.js:67"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4269000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "browser": {
+        "name": "chrome",
+        "version": "88.0.4324.190"
+      },
+      "device": "",
+      "platform": {
+        "name": "",
+        "version": ""
+      }
+    }
+  }
+]
